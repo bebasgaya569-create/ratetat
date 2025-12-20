@@ -1,0 +1,20 @@
+RewriteEngine On
+
+# ===============================
+# BASIC PAGE
+# ===============================
+RewriteRule ^faq/?$ faq.php [L]
+RewriteRule ^contact/?$ contact.php [L]
+RewriteRule ^pricing/?$ pricing.php [L]
+RewriteRule ^blog_1/?$ blog_1.php [L]
+
+# ===============================
+# LEGAL
+# ===============================
+RewriteRule ^legal/terms_conditions/?$ legal/terms_conditions.php [L]
+RewriteRule ^legal/privacy-policy/?$ legal/privacy-policy.php [L]
+
+# ===============================
+# PORTAL
+# ===============================
+RewriteRule ^portal/login/?$ portal/login.php [L]
